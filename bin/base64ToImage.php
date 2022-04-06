@@ -15,4 +15,4 @@ function base64_to_jpeg($base64_string, $output_file)
     return $output_file;
 }
 
-base64_to_jpeg($image64, "save/$name.png");
+base64_to_jpeg($image64, "../save/$name.png");

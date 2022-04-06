@@ -5,7 +5,7 @@ const target = $('#target')
 
 btnSave.addEventListener('click', function (e) {
   const imageName = Math.floor(Date.now() * Math.random()).toString(36)
-  const url = 'base64ToImage.php'
+  const url = 'bin/base64ToImage.php'
 
   html2canvas(target, {
     onrendered: function (canvas) {
